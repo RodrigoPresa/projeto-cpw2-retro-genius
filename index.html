@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Retro Genius</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="game-container">
+            <div class="top">
+                <div id="0" class="basic-style-divs div-red">
+                    <span class="card-number">1</span>
+                </div>
+            </div>
+            <div class="middle">
+                <div id="1" class="basic-style-divs div-green">
+                    <span class="card-number">2</span>
+                </div>
+                <div id="start" class="btn-start"><span>Start</span></div>
+                <div id="reset" class="btn-reset" style="display: none"><span>Reset</span></div>
+                <div id="2" class="basic-style-divs div-blue">
+                    <span class="card-number">3</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <div id="3" class="basic-style-divs div-yellow">
+                    <span class="card-number">4</span>
+                </div>
+            </div>    
+        </div>
+        <div class="hud-container">
+            <div id="status-msg"></div>
+            <div class="hud">
+                <div id="level"></div>
+                <div id="score"></div>
+                <div id="record"></div>
+            </div>
+        </div>    
+    </body>
+</html>
